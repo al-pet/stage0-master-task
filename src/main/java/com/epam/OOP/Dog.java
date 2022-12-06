@@ -9,5 +9,5 @@ public class Dog extends Animal {
     }
   }
   public static dogDescription () {
-    system.out.println(Dog.getDescription())
+    system.out.println(Dog.getDescription());
 }

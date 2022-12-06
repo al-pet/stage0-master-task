@@ -6,9 +6,9 @@ public class Animal {
   private static boolean hasFur;
   
   public Animal (String colr, int numberOfPws, boolean hasFr) {
-    colr = color;
-    numberOfPws = numberOfPaws;
-    hasFr = hasFur;  
+    color = colr;
+    numberOfPaws = numberOfPws;
+    hasFur = hasFr;  
   }
   public static String getDescription () {
   return "This animal is mostly " + color 

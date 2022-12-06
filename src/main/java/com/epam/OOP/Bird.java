@@ -12,6 +12,6 @@ public class Bird extends Animal {
     }
   }
   public static birdDescription () {
-    system.out.println(Bird.getDescription())
+    system.out.println(Bird.getDescription());
 }
 }

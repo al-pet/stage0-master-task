@@ -7,7 +7,7 @@ public class Bird extends Animal {
   public static String getDescription () {
     return Animal.getDescription () + "Moreover, it has 2 wings and can fly.";
   }
-  public static void birdDescription () {
-    System.out.println(getDescription ());
-  }
+  //public static void birdDescription () {
+   // System.out.println(getDescription ());
+  //}
 }

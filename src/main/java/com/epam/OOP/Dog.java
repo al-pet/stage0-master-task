@@ -2,12 +2,9 @@ package com.epam.OOP;
 
 public class Dog extends Animal {
   Dog () {
-    super () {
-      color = "brown";
-      numberOfPaws = 4;
-      hasFur = true;
-    }
+    super ("Brown", 4, true);
   }
-  public static dogDescription () {
-    system.out.println(Dog.getDescription());
+  public static void dogDescription () {
+    system.out.println(getDescription());
+  }  
 }

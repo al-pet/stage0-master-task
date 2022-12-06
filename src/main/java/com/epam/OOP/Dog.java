@@ -5,6 +5,6 @@ public class Dog extends Animal {
     super ("brown", 4, true);
   }
   public static void dogDescription () {
-    system.out.println(getDescription ());
+    System.out.println(getDescription ());
   }  
 }
